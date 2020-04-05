@@ -1,0 +1,1 @@
+ForestBanditDebuff/ModuleData/bandits.xml: NPCCharacters.NPCCharacter.name

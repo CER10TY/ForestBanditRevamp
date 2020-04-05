@@ -1,0 +1,22 @@
+ <Module>
+     <Name value="Forest Bandit Debuff"/>
+     <Id value="ForestBanditDebuff"/>
+     <Version value="v1.0.5"/>
+     <SingleplayerModule value="true"/>
+     <Official value="false" />
+     <DependedModules>
+         <DependedModule Id="Native"/>
+         <DependedModule Id="Sandbox"/>
+         <DependedModule Id="SandBoxCore"/>
+     </DependedModules>
+	 <SubModules/>
+     <Xmls>
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="bandits"/>
+            <IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>  
+     </Xmls>
+ </Module>
